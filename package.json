@@ -1,6 +1,6 @@
 {
   "name": "autogit-plugin-github-sync-description",
-  "description": "A plugin for synching the description with GitHub.",
+  "description": "A plugin for synchronizing the description with GitHub.",
   "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

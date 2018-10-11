@@ -1,6 +1,6 @@
 # Autogit Plugin - Github Sync Description
 
-A plugin for synching the description with GitHub.
+A plugin for synchronizing the description with GitHub.
 
 ## Install
 
