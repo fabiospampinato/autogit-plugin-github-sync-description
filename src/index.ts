@@ -48,7 +48,7 @@ function factory ( customOptions?: Partial<typeof defaultOptions> ) {
 
         if ( config.dry ) return task.skip ();
 
-        await github.repos.edit ({ owner, repo: name, name, description });
+        await github.repos['edit']({ owner, repo: name, name, description }); //TSC
 
         task.output = `Description updated to "${description}"`;
 
